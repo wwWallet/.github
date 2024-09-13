@@ -45,8 +45,13 @@ wwWallet has been participating in various initiatives and projects, often with 
 
 The convergence of various design approaches for identity wallets is still underway, leaving significant room for standardization—an essential component for ensuring interoperability. In Europe, considerable efforts have been directed towards this goal, as evidenced by the EUDI Wallet Architectural Reference Framework and the work of other European standardization bodies. wwWallet closely monitors these developments to ensure compatibility with other implementations. Our aim is to comply with the forthcoming EU CSA Certification Scheme, meeting both functional and security requirements while also operating efficiently in cross-border and even cross-continental scenarios.
 
-## wwWallet in Action 🔜
-*TBD*
+## wwWallet in Action 🎬
+
+Explore how **wwWallet** performs in interoperability scenarios across various LSPs and demos. These videos showcase the wallet’s capabilities in handling diverse use cases and its adaptability across various issuers, verifiers and credential formats.
+
+ - [EBSI Ecosystem Day (Formal Accreditation and Recognition Cluster)](https://www.youtube.com/watch?v=yIdVfc-srY8): Diploma issuance and verification with University of Athens and University of Lausanne
+ - [DC4EU (Social Security Case)](https://www.youtube.com/watch?v=gnDeTEmWdok): PID, EHIC and PDA1 issuance and verification
+ - [SPRIND Funke (Stage 1)](https://www.youtube.com/watch?v=VTjZ0lZBWH4): German PID issuance and verification
 
 ## Getting Started 🚀
 *TBD*
