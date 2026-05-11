@@ -106,3 +106,5 @@ you can pronounce it however suits you – we'll respond either way! It adds to 
 ## The wwWallet Team 👥
 
 wwWallet is a collaborative effort led by **GUnet**, **Sunet**, and **Yubico**. As an open-source project, it welcomes contributions from forward-thinking individuals and organizations interested in enhancing existing functionalities, developing new features, or exploring bold, innovative ideas driven by their unique use cases.
+
+SIROS ID builds on wwWallet to add several advanced features and strives to be a fully compliant EUDI wallet solution.
