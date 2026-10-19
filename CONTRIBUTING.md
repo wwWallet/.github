@@ -1,74 +1,67 @@
-# Contribution Guidelines 🙌 
+# Contribution Guidelines
 
-Welcome to the wwWallet ecosystem! We’re thrilled that you’re interested in contributing. This document provides guidelines for contributing to the project, whether you're submitting code, reporting issues, or participating in discussions.
-
-Our project thrives on collaboration, so don’t hesitate to reach out and engage with us through [GitHub Discussions](https://github.com/wwWallet/wallet-ecosystem/discussions) or by filing issues and pull requests.
+Welcome to the wwWallet ecosystem! These guidelines will help you get involved, whether you’re contributing code, reporting issues or sharing ideas in [GitHub Discussions](https://github.com/wwWallet/wallet-ecosystem/discussions).
 
 ---
 
-## Development Workflow 🛠️
+## Contribution Workflow
 
 To contribute effectively, follow these steps:
 
-1. **Start with an issue**:
-   - For larger or high-impact changes, contact us first to coordinate and gain consensus. This might involve starting a conversation in our [Discussions](https://github.com/wwWallet/wallet-ecosystem/discussions) or reaching out through other appropriate channels. We'll work together to determine the best way to proceed.
-   - For actionable changes, use the **issue templates** provided in our repositories to file a bug report, feature request or other relevant issue. The templates guide you in providing the necessary information.
+1. **Discuss and plan your contribution**:
+   - For minor fixes such as typos, metadata updates or comment improvements, you can open a pull request directly without creating a separate issue.
+   - Before starting a new feature, refactoring or another substantial change, discuss your proposal with the maintainers in [GitHub Discussions](https://github.com/wwWallet/wallet-ecosystem/discussions) so we can agree on an approach and coordinate with ongoing work. This also applies to changes to the architecture or established design patterns.
+   - For bug reports or concrete tasks such as adding tests, updating dependencies or implementing an agreed feature, open an issue using the repository's templates.
 
 2. **Create a branch**:
    - Create a branch corresponding to the issue or task. If multiple repositories are affected, create branches in each.
 
 3. **Commit your changes**:
-   - Write meaningful commit messages that reference the issue number and type of change (e.g., `feat`, `fix`, `docs`), such as:
+   - Write clear commit messages using a type such as `feat`, `fix` or `docs`. Reference the relevant issue when applicable, for example:
      ```plaintext
      docs: Update README, closes #45
      ```
 
-4. **Submit a pull request**:
-   - Open a pull request (PR) referencing the relevant issue. Include a description of the change and any additional context.
+4. **Submit a Pull Request**:
+   - Open a Pull Request (PR) and follow the [provided template](https://github.com/wwWallet/.github/blob/main/PULL_REQUEST_TEMPLATE.md).
    - Ensure it adheres to the [Pull Request Guidelines](#pull-request-guidelines).
 
 5. **Participate in the review process**:
-   - Reviewers may suggest changes or improvements. Collaborate to address feedback.
-   - If there are merge conflicts, resolve them promptly.
+   - Discuss feedback with reviewers and update your pull request as needed.
+   - Resolve any merge conflicts.
 
 6. **Monitor CI tests**:
    - Ensure your PR passes all automated tests. Fix any failures by pushing updates to your branch.
 
 ---
 
-## Pull Request Guidelines 📑
+## Pull Request Guidelines
 
-- **Use one PR per bug fix or feature**:
-  - Keep your changes focused. Avoid mixing unrelated fixes or features in the same pull request, as this can significantly increase the time needed for review and may delay or prevent us from merging.
+- **Keep each PR focused**:
+  - Keep changes focused and avoid mixing unrelated fixes or features. This makes pull requests easier to review and merge.
 
-- **Coordinate bigger changes**:
-  - For non-trivial or high-impact changes, discuss your approach with maintainers in advance. This prevents unnecessary work and ensures alignment with project goals.
-
-- **Respect architectural decisions**:
-  - Even small changes that deviate from the current architecture or design patterns should be discussed and gain consensus first. The core team maintains this project and its forks, so they need to stay familiar with all decisions and ensure consistency across the codebase. Sometimes, existing code—even if imperfect—aligns better with the overall architecture for reasons like maintainability or compatibility. 
-
-- **Small contributions**:
-  - For minor fixes (e.g., typos, metadata updates, comment improvements), you can directly open a merge request without creating a separate issue.
+- **Keep the codebase consistent**:
+  - Changes that deviate from the existing architecture or established design patterns need agreement with maintainers before implementation, even when the code change is small. This helps keep the codebase consistent and maintainable.
 
 - **Templates for issues and PRs**:
-  - Utilize our pre-defined templates when opening issues or submitting pull requests. These templates help streamline communication and ensure all necessary details are provided.
+  - Use the provided templates when opening issues or pull requests.
 
 ---
 
-## Code Reviews 🔍
+## Code Reviews
 
-Each contribution is reviewed by the core developers of wwWallet to ensure quality and alignment with the project’s goals.
+Each contribution is reviewed by wwWallet's core developers. Code reviews help us improve correctness, maintainability and consistency.
 
-During a code review, we:
-- **Assess the change’s desirability**:
-  - For larger features, ensure prior discussion has occurred.
-- **Review commit structure**:
-  - Ensure commits are logically grouped and have clear, descriptive messages.
-- **Verify code quality**:
-  - All changes should adhere to the project’s style and quality standards.
+During review, we look at:
 
-Code reviews are an opportunity to share knowledge and ensure consistency across the project. Please be receptive to feedback and work collaboratively with reviewers.
+- **Scope and approach**: Changes address the stated problem and fit the project's goals.
+- **Commit structure**: Commits are logically grouped and have clear, descriptive messages.
+- **Code quality**: Changes follow the project's style and quality standards.
+
+Reviewers may suggest changes or ask questions. You're welcome to ask for clarification and discuss alternative approaches.
 
 ---
+
+Please follow our [Code of Conduct](https://github.com/wwWallet/.github/blob/main/CODE_OF_CONDUCT.md) when participating in the project.
 
 Thank you for helping make the wwWallet ecosystem better! We value your time and effort and look forward to your contributions. 🚀
